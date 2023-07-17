@@ -51,7 +51,8 @@ h2 {
 }
 
 .secondary-button:hover {
-    color: rgb(113, 199, 20);
+    background-color: rgb(113, 199, 20, 0.5);
+    color: black;
     border: solid 2px rgb(48, 48, 48);
 }
 
