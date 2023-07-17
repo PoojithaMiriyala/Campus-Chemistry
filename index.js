@@ -6,7 +6,7 @@ const cors = require('cors')
 const bcrypt = require('bcrypt')
 require('dotenv').config()
 
-const PORT = process.end.PORT || 8000
+const PORT = process.env.PORT || 8000
 const base_url = process.env.BASE_URL
 const uri = process.env.URI
 
