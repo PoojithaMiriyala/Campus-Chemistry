@@ -15,7 +15,6 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 {authToken && <Route path="/dashboard" element={<Dashboard />} />}
                 {authToken && <Route path="/onboarding" element={<OnBoarding />} />}
-
             </Routes>
         </BrowserRouter>
     )

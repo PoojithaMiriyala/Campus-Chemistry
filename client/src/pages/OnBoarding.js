@@ -1,4 +1,4 @@
-import Nav from '../components/Nav'
+import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import { useCookies } from 'react-cookie'
 import { useNavigate } from 'react-router-dom'
@@ -50,7 +50,7 @@ const OnBoarding = () => {
 
     return (
         <>
-            <Nav
+            <Navbar
                 minimal={true}
                 setShowModal={() => {
                 }}

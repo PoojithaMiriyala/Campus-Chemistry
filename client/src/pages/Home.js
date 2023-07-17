@@ -1,4 +1,4 @@
-import Nav from '../components/Nav'
+import Navbar from '../components/Navbar'
 import AuthModal from "../components/AuthModal"
 import { useState } from 'react'
 import { useCookies } from "react-cookie"
@@ -22,7 +22,7 @@ const Home = () => {
 
     return (
         <div className="overlay">
-            <Nav
+            <Navbar
                 authToken={authToken}
                 minimal={false}
                 setShowModal={setShowModal}

@@ -1,7 +1,7 @@
 import whiteLogo from "../images/cc-white.png";
 import colorLogo from "../images/cc-black.png";
 
-const Nav = ({ authToken, minimal, setShowModal, showModal, setIsSignUp }) => {
+const Navbar = ({ authToken, minimal, setShowModal, showModal, setIsSignUp }) => {
   const handleClick = () => {
     setShowModal(true);
     setIsSignUp(false);
@@ -28,4 +28,4 @@ const Nav = ({ authToken, minimal, setShowModal, showModal, setIsSignUp }) => {
     </nav>
   );
 };
-export default Nav;
+export default Navbar;
