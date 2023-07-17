@@ -384,7 +384,7 @@ nav .logo-container .logo {
 }
 
 #textArea {
-    width: 350px;
+    width: auto;
     height: 40px;
     resize: none;
 }
