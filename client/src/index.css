@@ -49,7 +49,7 @@ h2 {
 }
 
 .secondary-button:hover {
-    color: rgb(48, 48, 48);
+    color: rgb(113, 199, 20);
     border: solid 2px rgb(48, 48, 48);
 }
 
@@ -125,7 +125,7 @@ nav .logo-container .logo {
     margin-left: auto;
     margin-right: auto;
     max-width: 360px;
-    height: 600px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 40px;
@@ -280,7 +280,7 @@ nav .logo-container .logo {
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
         rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    width: 30%;
+    width: 40%;
     text-align: left;
     z-index: 1;
 }
@@ -325,6 +325,31 @@ nav .logo-container .logo {
     width: 100%;
 }
 
+/*-------- Matches Display --------*/
+.match-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    padding-right: 60px;
+    background-color: rgb(243, 170, 96);
+    border: 4px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.match-card-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.match-card-image img {
+    width: 100%;
+}
+
+
 /*-------- Chat Display --------*/
 .chat-display,
 .matches-display {
@@ -344,7 +369,7 @@ nav .logo-container .logo {
     margin: 5px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rgb(253, 235, 214);
+    background-color: #F4F2DE;
 }
 
 .chat-message-header {
@@ -358,6 +383,11 @@ nav .logo-container .logo {
     flex-direction: column;
 }
 
+#textArea {
+    width: 350px;
+    height: 40px;
+    resize: none;
+}
 
 .submit-button {
     color: black;
@@ -392,7 +422,7 @@ nav .logo-container .logo {
     right: 0;
     bottom: 0;
     height: 100%;
-    background: #259f6c;
+    background: #7C9D96;
     z-index: -1;
     transform: translate3D(0, -100%, 0);
     transition: all .5s;

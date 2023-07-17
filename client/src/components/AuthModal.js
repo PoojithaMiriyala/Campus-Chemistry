@@ -39,6 +39,7 @@ const AuthModal = ({ setShowModal, isSignUp }) => {
 
         } catch (error) {
             console.log(error)
+            setError(error.response.data)
         }
 
     }
