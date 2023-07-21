@@ -12,7 +12,7 @@ const MatchesDisplay = ({ matches, setClickedUser }) => {
 
     const getMatches = async () => {
         try {
-            const response = await axios.get("https://campus-chemistry-backend.onrender.com/users", {
+            const response = await axios.get("https://campus-chemistry-backend-service.onrender.com/users", {
                 params: { userIds: JSON.stringify(matchedUserIds) },
             });
             console.log(response.data)
