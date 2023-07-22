@@ -5,8 +5,10 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    height: 100vh; /* Set the height of the body to 100% of the viewport height */
-    overflow: hidden; /* Hide the scroll bar */
+    height: 100vh;
+    /* Set the height of the body to 100% of the viewport height */
+    overflow: hidden;
+    /* Hide the scroll bar */
 }
 
 h2 {
@@ -95,14 +97,19 @@ nav .logo-container .logo {
 
 /*-------- Home page --------*/
 .overlay {
-    /* padding-right: 17px; */
+    padding-right: 17px;
     width: 100vw;
     height: 100vh;
     /* overflow-y: auto; */
+    overflow: auto;
     position: fixed;
     background: linear-gradient(to bottom,
-            rgba(0, 0, 0, 0.65) 0%,
-            rgba(0, 0, 0, 0) 100%), url('https://upload.wikimedia.org/wikipedia/commons/3/3b/IIITA_2.png')
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3b/IIITA_2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .home {
